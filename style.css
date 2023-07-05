@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(148, 134, 179);
+}
+
+.main {
+    width: 25vw;
+    height: 60vh;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20vw;
+    margin-top: 20vh;
+}
+
+.resultscreen {
+    width: 25vw;
+    height: 60vh;
+    border: 4px solid black;
+    position: absolute;
+    top: 20vh;
+    left: 50vw
+}
+
+.screen {
+    height: 12vh;
+    width: 25vw;
+    border: 30px solid rgb(58, 52, 133);
+    display: flex;
+    font-size: 70px;
+    justify-content: end;
+    align-items: center;
+}
+
+.opt {
+    height: 48vh;
+    width: 25vw;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers {
+    height: 48vh;
+    width: 17vw;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vh;
+    background-color: #28467c;
+}
+
+.operator {
+    height: 48vh;
+    width: 8vw;
+    border: 2px solid rgb(163, 32, 32);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #28467c;
+}
+
+.operator button {
+    height: 8vh;
+    width: 7vw;
+    margin: 1vh;
+    font-size: 70px;
+    /* background-color: #9dbbda; */
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.operator input {
+    height: 8vh;
+    width: 7vw;
+    margin: 1vh;
+    font-size: 70px;
+    /* background-color: #9dbbda; */
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.numbers button {
+    /* background-color: #5e9cda; */
+    height: 11vh;
+    width: 5vw;
+    font-size: 70px;
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #7464bb;
+    /* Green */
+    color: white;
+}
+
+.screen2 {
+    height: 60vh;
+    width: 25vw;
+    border: 30px solid rgb(58, 52, 133);
+    display: flex;
+    font-size: 70px;
+    justify-content: start;
+    align-items: start;
+}
